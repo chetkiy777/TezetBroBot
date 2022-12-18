@@ -1,8 +1,7 @@
 const TelegramApi = require('node-telegram-bot-api')
+require('dotenv').config()
 
-const token = '5624706679:AAFjM2MCHmE6j9C22NqSM7kb89NOzlsjWsI'
-
-const bot = new TelegramApi(token, {polling: true})
+const bot = new TelegramApi(process.env.bot_token, {polling: true})
 
 let start = () => {
     bot.on('message', async (msg) => {
