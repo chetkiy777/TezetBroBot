@@ -1,0 +1,10 @@
+name: forBro
+username: TezerBroBot
+
+
+Done! Congratulations on your new bot. You will find it at  
+
+Use this token to access the HTTP API:
+5624706679:AAFjM2MCHmE6j9C22NqSM7kb89NOzlsjWsI
+
+For a description of the Bot API, see this page: https://core.telegram.org/bots/api
