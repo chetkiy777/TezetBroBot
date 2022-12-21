@@ -20,9 +20,9 @@ let start = () => {
                 
                 if (a[0] === '-') {
                     a = a.slice(1)
-                    a = (1 - a/100 - 0.001)
+                    a = (1 - a/100 - 0.001).toFixed(3)
                 } else if (a[0] === '+')  {
-                    a = (1 + a/100 + 0.001)
+                    a = (1 + a/100 + 0.001).toFixed(3)
                 } else if (a.includes("к")) {
                     a = "1,001"
                 }
